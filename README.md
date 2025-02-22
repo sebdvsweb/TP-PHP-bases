@@ -36,7 +36,7 @@ foreach ($contacts as $contact) {
 }
 ```
 
-## 🔍 Explication du symbole `&` devant `&$contacts`  
+**🔍 Explication du symbole `&` devant `&$contacts`**
 
 Dans certaines fonctions, nous utilisons le symbole `&` devant le paramètre `$contacts`, comme dans :  
 
