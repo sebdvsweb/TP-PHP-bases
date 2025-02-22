@@ -36,6 +36,21 @@ foreach ($contacts as $contact) {
 }
 ```
 
+## 🔍 Explication du symbole `&` devant `&$contacts`  
+
+Dans certaines fonctions, nous utilisons le symbole `&` devant le paramètre `$contacts`, comme dans :  
+
+```php
+function ajouterContact(&$contacts, $nom, $prenom, $telephone, $genre) {
+    $contacts[] = ['nom' => $nom, 'prenom' => $prenom, 'telephone' => $telephone, 'genre' => $genre];
+}
+```
+
+**📌 Que signifie &$contacts ?**
+
+Le & permet de passer le tableau par référence, et non par valeur.
+Si nous ne mettions pas &, la fonction travaillerait sur une copie du tableau, et les modifications ne seraient pas appliquées au tableau original.
+
 ## 2️⃣ Fonction d'affichage des contacts  
 - Écrire une fonction `afficherContacts($contacts)` qui affiche tous les contacts sous forme de liste.  
 
