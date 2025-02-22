@@ -27,6 +27,15 @@ $contacts = [
 echo $contacts[0]['nom']; // Affichera "Dupont"
 ```
 
+**Boucles foreach :**
+- Pour chcune des fonctions ci-dessous, vous devrez passer par une boucle foreach pour parcourir votre tableau de contacts.
+
+```php
+foreach ($contacts as $contact) {
+  // code PHP
+}
+```
+
 ## 2️⃣ Fonction d'affichage des contacts  
 - Écrire une fonction `afficherContacts($contacts)` qui affiche tous les contacts sous forme de liste.  
 
