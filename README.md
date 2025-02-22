@@ -42,13 +42,13 @@ Dans certaines fonctions, nous utilisons le symbole `&` devant le paramètre `$c
 
 ```php
 function ajouterContact(&$contacts, $nom, $prenom, $telephone, $genre) {
-    $contacts[] = ['nom' => $nom, 'prenom' => $prenom, 'telephone' => $telephone, 'genre' => $genre];
+   // code PHP
 }
 ```
 
 **📌 Que signifie &$contacts ?**
 
-Le & permet de passer le tableau par référence, et non par valeur.
+Le **&** permet de passer le tableau par référence, et non par valeur.
 Si nous ne mettions pas &, la fonction travaillerait sur une copie du tableau, et les modifications ne seraient pas appliquées au tableau original.
 
 ## 2️⃣ Fonction d'affichage des contacts  
