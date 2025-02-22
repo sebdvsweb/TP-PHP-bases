@@ -8,7 +8,7 @@ Créer un programme PHP permettant de gérer une liste de contacts sous forme de
 ## ✍️ Consignes  
 
 ### 1️⃣ Création du tableau des contacts  
-- Crée un tableau `$contacts` contenant au moins 10 contacts.  
+- Crée un tableau `$contacts` contenant des contacts.  
 - Chaque contact est un tableau associatif avec les clés :  
   - `'nom'`  
   - `'prenom'`  
@@ -69,17 +69,15 @@ Voici une liste de contacts que vous devez intégrer sous forme d'un tableau ass
 
 ### 👦 Garçons  
 - **Dupont Jean** - 0601020304  
-- **Martin Paul** - 0623456789  
-- **Bernard Luc** - 0634567890  
 - **Elaaziz Abdel** - 0645678901  
 - **Nguyen Bao** - 0656789012  
-- **Garcia Hugo** - 0678901234  
-- **Diaz Carlos** - 0690123456  
+- **Garcia Hugo** - 0678901234   
 
 ### 👧 Filles  
 - **Durand Sophie** - 0612345678  
 - **Lemoine Claire** - 0667890123  
-- **Rousseau Emma** - 0689012345  
+- **Rousseau Emma** - 0689012345
+- **Da Silva Carla** - 0690123456  
 
 📌 **À vous de transformer cette liste en un tableau PHP et de coder les différentes fonctionnalités demandées ! 🚀**  
 
